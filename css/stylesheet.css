@@ -1,0 +1,99 @@
+body{
+  font-family: sans-serif;
+  font-size:110%;
+  background-color: #FCF7F8;
+}
+
+a {
+  color: blue;
+}
+
+header {
+  text-align: center;
+  background: navy;
+  position: relative;
+  border-style: groove;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 1rem;
+}
+
+body {
+  margin-left: 250px;
+}
+
+footer {
+  background-color: #343330;
+  text-align: center;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+h2 {
+  border-style: dashed;
+  border-radius: 10px 40px 10px 40px;
+  border-width: 0;
+  font-size: 30px;
+  background-color: #ccc;
+  margin: 20px;
+  padding: 20px;
+}
+
+.div-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.menu {
+  position: fixed;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  padding: 0;
+  background: rgb(36, 36, 36);
+  border-radius: 10px;
+  box-sizing: initial;
+  width: 200px;
+  font-family: sans-serif;
+}
+
+.menu ul li {
+  position: relative;
+  list-style: none;
+}
+
+.menu ul li a {
+  position: relative;
+  color: white;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.menu ul li a:hover {
+  color: cyan;
+  margin-left: 20px;
+  transition: 0.2s;
+}
+
+.contactDetails {
+  width: 50px;
+}
+
+.navHeading {
+  margin: 10%; 
+  color: white;
+}
+
+.profilePic {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  border:3px solid black;
+}
