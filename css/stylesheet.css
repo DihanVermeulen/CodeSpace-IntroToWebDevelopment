@@ -74,9 +74,10 @@ h2 {
 }
 
 .menu ul li a:hover {
-  color: cyan;
+  color: black;
   margin-left: 20px;
   transition: 0.2s;
+  background: white;
 }
 
 .contactDetails {
