@@ -9,7 +9,8 @@ a {
   color: blue;
 }
 
-header {
+.mainHeader {
+  color:white;
   text-align: center;
   background: navy;
   position: relative;
